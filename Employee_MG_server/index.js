@@ -17,7 +17,7 @@ const app = express();
 app.use(
     cors({
         //origin: ["https://employeemsrk.netlify.app", "http://localhost:5173"],
-        origin: ["https://ets-backend-oo3i.onrender.com","http://localhost:5173"],
+        origin: ["https://ets-frontend-hwbp.onrender.com","http://localhost:5173"],
         credentials: true,
     })
 );
